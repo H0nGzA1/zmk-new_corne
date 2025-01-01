@@ -45,7 +45,7 @@ layers:
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - {t: '$$mdi:keyboard-space$$', h: 'Hyper+ $$mdi:keyboard-space$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:keyboard-space$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - SYMBOL
   NUMBER:
