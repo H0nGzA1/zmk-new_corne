@@ -69,10 +69,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp EXCL         &kp AT_SIGN     &kp HASH      &kp DOLLAR    &kp PERCENT                                    &mmv MOVE_UP                     &kp CARET  &kp AMPERSAND  &kp STAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&trans  &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL      &kp TILDE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS       &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOWN
-                                         &trans        &trans        &trans                                                                          &mo 3      &kp DEL        &trans
+&trans  &kp EXCL      &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                                 &mmv MOVE_UP                     &kp CARET  &kp AMPERSAND  &kp STAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL      &kp TILDE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
+&trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS       &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOWN
+                                    &trans        &trans        &trans                                                                       &mo 3      &kp DEL        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
