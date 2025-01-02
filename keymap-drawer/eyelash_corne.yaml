@@ -44,7 +44,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - LGUI
   - NUMBER
-  - {t: KP ENTER, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: 'Meh+ $$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - SYMBOL
