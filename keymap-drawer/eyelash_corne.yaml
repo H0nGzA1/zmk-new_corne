@@ -28,7 +28,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RIGHT GUI, s: ':'}
   - {t: '''', s: '"'}
-  - {t: SYMBOL, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: SYMBOL}
   - Z
   - X
   - C
@@ -46,7 +46,7 @@ layers:
   - {t: NUMBER, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: 'Meh+ $$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:backspace$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: SYMBOL, h: '$$mdi:gesture-tap-hold$$'}
   NUMBER:
   - $$mdi:keyboard-tab$$
