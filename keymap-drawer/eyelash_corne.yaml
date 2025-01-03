@@ -43,24 +43,24 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - LGUI
-  - NUMBER
+  - {t: NUMBER, h: toggle}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: 'Meh+ $$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - SYMBOL
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
@@ -92,9 +92,9 @@ layers:
   - '}'
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - QWERTY
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: QWERTY, h: toggle}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
