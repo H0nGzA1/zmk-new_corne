@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - $$mdi:keyboard-esc$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: A, h: LMETA}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -43,41 +43,41 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-esc$$', h: LGUI}
-  - {t: NUMBER, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: 'Meh+ $$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - NUMBER
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-return$$', h: 'Meh+ $$mdi:apple-keyboard-command$$'}
+  - num
   - {t: SYMBOL, h: '$$mdi:gesture-tap-hold$$'}
   NUMBER:
-  - $$mdi:keyboard-tab$$
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
   - '|'
-  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - '~'
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -85,17 +85,66 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - _
-  - +
-  - '~'
-  - '{'
-  - '}'
+  - Ins
+  - HOME
+  - PgUp
+  - PgUp
+  - END
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWERTY, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
+  num:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '{'
+  - '7'
+  - '8'
+  - '9'
+  - '}'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ;, s: ':'}
+  - '4'
+  - '5'
+  - '6'
+  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: RGUI, s: ':'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
+  - '1'
+  - '2'
+  - '3'
+  - '|'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '>'
+  - )
+  - {t: '-', s: _}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
