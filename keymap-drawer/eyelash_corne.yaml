@@ -41,13 +41,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: func}
   - {t: '$$mdi:keyboard-esc$$', h: extra}
   - {t: '$$mdi:keyboard-space$$', h: nav_layer}
   - {t: '$$mdi:apple-keyboard-command$$', h: mouse}
-  - {t: Meh+ LGUI, h: symbol}
+  - {t: Meh+ LGUI, h: '$$mdi:keyboard-space$$'}
   - {t: '$$mdi:keyboard-return$$', h: number}
-  - func
+  - symbol
   nav_layer:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -290,9 +290,9 @@ layers:
   - (
   - )
   - {t: '-', s: _}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   func:
   - {t: '$$mdi:transfer$$', type: trans}
   - F12
@@ -335,10 +335,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
