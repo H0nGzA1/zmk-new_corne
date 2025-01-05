@@ -45,9 +45,9 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: extra}
   - nav_layer
   - {t: '$$mdi:keyboard-space$$', h: mouse}
-  - {t: Meh+ LGUI, h: symbol}
+  - {t: '$$mdi:keyboard-return$$', h: symbol}
   - number
-  - {t: func, h: '$$mdi:gesture-tap-hold$$'}
+  - func
   nav_layer:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
