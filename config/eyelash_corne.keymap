@@ -94,6 +94,7 @@
         };
 
         num_layer {
+            display-name = "number";
             bindings = <
 &trans  &kp LEFT_BRACE  &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9           &kp RIGHT_BRACE                    &trans          &trans  &trans         &trans                &trans            &trans               &trans
 &trans  &kp SEMICOLON   &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6           &kp EQUAL                  &trans  &trans  &trans  &trans  &hmr RSHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RGUI SEMICOLON  &trans
@@ -103,6 +104,7 @@
         };
 
         mouse_layer {
+            display-name = "mouse";
             bindings = <
 &trans  &trans       &trans           &trans               &trans        &trans                            &mmv MOVE_UP                     &trans     &trans     &trans     &trans  &trans  &trans
 &trans  &hml LGUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LSHFT F  &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans     &trans     &trans     &trans  &trans  &trans
@@ -124,6 +126,7 @@
         };
 
         sym_layer {
+            display-name = "symbol";
             bindings = <
 &trans  &kp LEFT_BRACE  &kp AMPERSAND    &kp STAR              &kp LEFT_BRACE         &kp RIGHT_BRACE                    &trans          &trans  &trans         &trans        &trans            &trans               &trans
 &trans  &kp SEMICOLON   &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS                   &trans  &trans  &trans  &trans  &hmr RSHIFT J  &hmr RCTRL K  &hmr RIGHT_ALT L  &hmr RGUI SEMICOLON  &trans
@@ -133,6 +136,7 @@
         };
 
         func_layer {
+            display-name = "func";
             bindings = <
 &trans  &kp F12  &kp F7  &kp F8  &kp F9     &trans                    &trans          &trans  &trans         &trans        &trans            &trans               &trans
 &trans  &kp F11  &kp F4  &kp F5  &kp F6     &trans            &trans  &trans  &trans  &trans  &hmr RSHIFT J  &hmr RCTRL K  &hmr RIGHT_ALT L  &hmr RGUI SEMICOLON  &trans
