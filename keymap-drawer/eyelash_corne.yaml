@@ -45,8 +45,8 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: extra}
   - {t: '$$mdi:keyboard-space$$', h: nav_layer}
   - {t: '$$mdi:apple-keyboard-command$$', h: mouse}
-  - {t: '$$mdi:keyboard-space$$', h: Meh+ LGUI}
-  - {t: '$$mdi:keyboard-return$$', h: number}
+  - {t: '$$mdi:keyboard-return$$', h: Meh+ LGUI}
+  - {t: '$$mdi:keyboard-space$$', h: number}
   - {t: '$$mdi:backspace$$', h: symbol}
   nav_layer:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -71,11 +71,11 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:apple-keyboard-caps$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
+  - $$mdi:apple-keyboard-caps$$
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -140,8 +140,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '>'
-  - )
+  - <
+  - (
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
