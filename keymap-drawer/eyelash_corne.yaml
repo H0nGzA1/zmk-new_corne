@@ -42,13 +42,13 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-esc$$', h: SYMBOL}
-  - NUMBER
+  - {t: '$$mdi:keyboard-esc$$', h: extra}
+  - nav_layer
   - {t: '$$mdi:keyboard-space$$', h: mouse}
   - {t: Meh+ LGUI, h: sym}
   - num
   - {t: func, h: '$$mdi:gesture-tap-hold$$'}
-  NUMBER:
+  nav_layer:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -195,7 +195,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  SYMBOL:
+  extra:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - F1
   - F2
