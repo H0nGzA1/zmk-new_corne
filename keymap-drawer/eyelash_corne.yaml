@@ -43,10 +43,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-esc$$', h: extra}
-  - nav_layer
-  - {t: '$$mdi:keyboard-space$$', h: mouse}
-  - {t: '$$mdi:keyboard-return$$', h: symbol}
-  - number
+  - {t: '$$mdi:keyboard-space$$', h: nav_layer}
+  - {t: '$$mdi:apple-keyboard-command$$', h: mouse}
+  - {t: Meh+ LGUI, h: symbol}
+  - {t: '$$mdi:keyboard-return$$', h: number}
   - func
   nav_layer:
   - {t: '$$mdi:transfer$$', type: trans}
