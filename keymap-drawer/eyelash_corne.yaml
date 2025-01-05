@@ -45,8 +45,8 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: extra}
   - nav_layer
   - {t: '$$mdi:keyboard-space$$', h: mouse}
-  - {t: Meh+ LGUI, h: sym}
-  - num
+  - {t: Meh+ LGUI, h: symbol}
+  - number
   - {t: func, h: '$$mdi:gesture-tap-hold$$'}
   nav_layer:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -97,7 +97,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  num:
+  number:
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - '7'
@@ -244,7 +244,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  sym:
+  symbol:
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - '&'
