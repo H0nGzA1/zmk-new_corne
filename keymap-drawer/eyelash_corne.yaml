@@ -45,9 +45,9 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: extra}
   - {t: '$$mdi:keyboard-space$$', h: nav_layer}
   - {t: '$$mdi:apple-keyboard-command$$', h: mouse}
-  - {t: Meh+ LGUI, h: '$$mdi:keyboard-space$$'}
+  - {t: '$$mdi:keyboard-space$$', h: Meh+ LGUI}
   - {t: '$$mdi:keyboard-return$$', h: number}
-  - symbol
+  - {t: '$$mdi:backspace$$', h: symbol}
   nav_layer:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
