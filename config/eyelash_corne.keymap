@@ -130,7 +130,7 @@
             bindings = <
 &trans  &kp LEFT_BRACE  &kp AMPERSAND    &kp STAR              &kp LEFT_BRACE         &kp RIGHT_BRACE                    &trans          &trans  &trans         &trans        &trans            &trans               &trans
 &trans  &kp SEMICOLON   &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS                   &trans  &trans  &trans  &trans  &hmr RSHIFT J  &hmr RCTRL K  &hmr RIGHT_ALT L  &hmr RGUI SEMICOLON  &trans
-&trans  &kp GRAVE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE         &trans            &trans          &trans  &trans         &trans        &trans            &trans               &trans
+&trans  &kp GRAVE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp BSLH         &trans            &trans          &trans  &trans         &trans        &trans            &trans               &trans
                                          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS                                          &trans  &trans         &trans
             >;
         };
