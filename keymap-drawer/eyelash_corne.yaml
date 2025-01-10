@@ -99,11 +99,11 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   number:
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
+  - {t: '[', s: '{'}
   - '7'
   - '8'
   - '9'
-  - '}'
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
