@@ -96,10 +96,10 @@
         num_layer {
             display-name = "number";
             bindings = <
-&trans  &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9          &kp RIGHT_BRACKET                    &trans          &trans  &trans         &trans                &trans            &trans               &trans
-&trans  &kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6          &kp EQUAL                    &trans  &trans  &trans  &trans  &hmr RSHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RGUI SEMICOLON  &trans
-&trans  &kp TILDE         &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3          &kp NUMBER_0       &trans            &trans          &trans  &trans         &trans                &trans            &trans               &trans
-                                        &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp MINUS                                            &trans  &trans         &trans
+&trans  &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8           &kp NUMBER_9          &kp RIGHT_BRACKET                    &trans          &trans  &trans         &trans                &trans            &trans               &trans
+&trans  &kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5           &kp NUMBER_6          &kp EQUAL                    &trans  &trans  &trans  &trans  &hmr RSHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RGUI SEMICOLON  &trans
+&trans  &kp TILDE         &kp NUMBER_1  &kp NUMBER_2           &kp NUMBER_3          &kp NUMBER_0       &trans            &trans          &trans  &trans         &trans                &trans            &trans               &trans
+                                        &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp MINUS                                            &trans  &trans         &trans
             >;
         };
 
